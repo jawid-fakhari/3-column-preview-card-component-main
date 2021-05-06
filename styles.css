@@ -1,3 +1,26 @@
+    h/* font-family: 'Big Shoulders Display', cursive; */
+    p/* font-family: 'Lexend Deca', sans-serif;  */
 body {
-    background-color: rgba(161, 190, 204, 0.897);
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
 }
