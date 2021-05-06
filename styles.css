@@ -49,3 +49,17 @@ button {
 }
 
 .luxury button {color: hsl(179, 100%, 13%);}
+
+@media (min-width: 375px) {
+    .container {
+        display: flex;
+        margin: 10% auto;
+        width: 60%;
+    }
+    .sedans {
+        border-radius: 10px 0 0 10px;
+    }
+    .luxury {
+        border-radius: 0 10px 10px 0;
+    }
+}
